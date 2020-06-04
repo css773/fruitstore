@@ -79,7 +79,7 @@ const Tab = TabNavigator(
             tintColor={tintColor}
             focused={focused}
             selectedImage = {require('./img/cartSelect.png')}
-            normalImage = {require('./img/cart.png')}
+            normalImage = {require('./img/cart3.jpg')}
             />
      )
         }
