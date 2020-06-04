@@ -8,7 +8,7 @@ const Header = (props) => {
             <TouchableOpacity style={{alignSelf:'center'}}>
             <Image source={require('../../img/smile.png')} style={styles.img}/>
             </TouchableOpacity>
-            <Text style={styles.text}>Hello! 小吃货(　＾∀＾)</Text>
+            <Text style={styles.text}>Hello! </Text>
         </View>
     )
 } 

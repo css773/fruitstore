@@ -24,20 +24,6 @@ const subList = [
 const Order = (props) => {
     return (
         <View style={[styles.container,props.style]}>
-            {/* 
-                感觉这个不好看...想加功能可以把注释去掉
-            <View style={styles.wrapper}>
-            {
-                subList.map((value, index)=> (
-                    <View key={index} style={{flexDirection: 'column',alignItems:'center'}}>
-                    <TouchableOpacity>
-                        <Image source={value.image} style={styles.img}/>
-                        <Text style={{textAlign: 'center'}}>{value.title}</Text>
-                    </TouchableOpacity> 
-                    </View>
-                ))
-            }
-            </View> */}
             <Line onPress={()=> goOrderScreen(props)} title={'我的订单'} subtitle={'查看详情'}/>
             <Line title={'我的收货地址'} subtitle={'查看'}/>
             <Line title={'我的收藏'} subtitle={'♥'}/>
