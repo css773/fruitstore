@@ -79,8 +79,8 @@ const Tab = TabNavigator(
             <TabBarItem
             tintColor={tintColor}
             focused={focused}
-            selectedImage = {require('./img/cartSelect.png')}
-            normalImage = {require('./img/cart.png')}
+            selectedImage = {require('./img/ic_tab_cart.png')}
+            normalImage = {require('./img/ic_tab_cart_press.png')}
             />
      )
         }

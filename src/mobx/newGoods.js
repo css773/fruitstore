@@ -1,13 +1,13 @@
 const newsGoods = {
     "data": 
         [{
-            "name": '大西瓜',
+            "name": '西瓜',
             "price": '2.0',
             "image": require('../img/a11.png'),
             "count": 0,
             "isSelected": true
         },{
-            "name": '大菠萝',
+            "name": '菠萝',
             "price": '3.0',
             "image": require('../img/a1.png'),
             "count": 0,
