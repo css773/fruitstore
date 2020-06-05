@@ -26,11 +26,7 @@ const Order = (props) => {
         <View style={[styles.container,props.style]}>
             <Line onPress={()=> goOrderScreen(props)} title={'我的订单'} subtitle={'查看详情'}/>
             <Line title={'我的收货地址'} subtitle={'查看'}/>
-            <Line title={'我的收藏'} subtitle={'♥'}/>
-            <Line title={'我的评价'} subtitle={'☀'}/>
-            <Line title={'会员中心'} subtitle={'☺'}/> 
-            <Line title={'优惠卷'} subtitle={'✉'}/>
-            <Line title={'联系我们'} subtitle={'☎'}/>
+            <Line onPress={()=>{goAuthorScreen(props)}} title={'联系我们'} subtitle={'☎'}/>
             <Line title={'关于'} subtitle={'版本: 1.0'}/>
 
         </View>
@@ -39,6 +35,9 @@ const Order = (props) => {
 
 const goOrderScreen = (props) => {
     props.navigation.navigate('OrderScreen',{})
+}
+const goAuthorScreen = (props) =>{
+    props.navigation.navigate('AuthorScreen',{})
 }
  
 const styles = {

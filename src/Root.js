@@ -22,6 +22,7 @@ import theme from './common/color'
 import {Provider} from 'mobx-react'
 // 获取store实例
 import store from './mobx/store'
+import AuthorScreen from './scene/Order/AuthorScreen';
 
 const  Navigation = () => {
     return (
@@ -79,7 +80,7 @@ const Tab = TabNavigator(
             tintColor={tintColor}
             focused={focused}
             selectedImage = {require('./img/cartSelect.png')}
-            normalImage = {require('./img/cart3.jpg')}
+            normalImage = {require('./img/cart.png')}
             />
      )
         }
@@ -130,7 +131,8 @@ const Navigator = StackNavigator(
     Tab:{screen: Tab},
     ItemDetail:{screen: ItemDetail},
     Cart:{screen: CartScreen},
-    OrderScreen: {screen: OrderScreen}
+    OrderScreen: {screen: OrderScreen},
+    AuthorScreen:{screen:AuthorScreen}
   },  
   
   {  
