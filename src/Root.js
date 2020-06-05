@@ -63,8 +63,8 @@ const Tab = TabNavigator(
             <TabBarItem
             tintColor={tintColor}
             focused={focused}
-            selectedImage = {require('./img/categorySelect.png')}
-            normalImage = {require('./img/category.png')}
+            selectedImage = {require('./img/need--.png')}
+            normalImage = {require('./img/need--.png')}
           />
     )
        }
@@ -79,8 +79,8 @@ const Tab = TabNavigator(
             <TabBarItem
             tintColor={tintColor}
             focused={focused}
-            selectedImage = {require('./img/ic_tab_cart.png')}
-            normalImage = {require('./img/ic_tab_cart_press.png')}
+            selectedImage = {require('./img/ic_tab_cart_press.png')}
+            normalImage = {require('./img/ic_tab_cart.png')}
             />
      )
         }
