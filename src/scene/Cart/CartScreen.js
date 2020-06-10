@@ -87,7 +87,7 @@ export default class CartScreen extends Component {
         </View>
         :
       <View style={{flex: 1,justifyContent: 'center',alignItems: 'center'}}>
-        <Text>购物车是空的哦~请到首页或者分类页添加哈๑乛◡乛๑</Text>
+        <Text>购物车空空如也</Text>
       </View>
       }
       </View>
